@@ -1,5 +1,5 @@
 # Predict-Titanic-Survival
-This is a logistic regression algorithm that predicts whether or not someone on the Titanic would've survived. The code is written in Python and uses the Sikit-Learn library.
+This is a logistic regression algorithm that predicts whether or not someone on the Titanic would've survived. The code is written in python and uses the Sikit-Learn library.
 
 # Data cleaning
 The data was split into multiple csv files which made it neccesary to combine them into one merged csv file. Column "Sex", which referred to the gender of that individual, had to be converted to an integer, which is either be a 0(female) or a 1(male). Additionally, some of the data for the column "age" was missing. In order to fix that problem, I took the mean value of the "age" column and input that value into any empty positions. 
